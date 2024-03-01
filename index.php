@@ -232,7 +232,7 @@ if($delete){
             <tbody>
                 <?php
 
-                   $sql = "SELECT * FROM `notes`";
+                   $sql = "SELECT * FROM `notes`";//GET ALL rows of data from database
                    $result = mysqli_query($conn,$sql);
                    $sno = 0;
 
